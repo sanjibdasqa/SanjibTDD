@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="2" total="7" passed="1" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (889a9a81c14c3110d7e1279fa48f8730)] -> xpath: //span[text()='Get Internet Quote']] ---> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Validating ---> Actual : *** REQUEST A QUOTE ***. Expected : *** REQUEST A QUOTE ***<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sanjib <--- This value has been passed into ---> [[ChromeDriver: chrome on WINDOWS (889a9a81c14c3110d7e1279fa48f8730)] -> xpath: (//input[@id='textfield_2dac'])[1]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[02587502 <--- This value has been passed into ---> [[ChromeDriver: chrome on WINDOWS (889a9a81c14c3110d7e1279fa48f8730)] -> xpath: //input[@id='textField2']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Test3<br>]]>
+    </line>
+    <line>
+      <![CDATA[*** Screen shot has been captured successfully ***<br>]]>
+    </line>
+    <line>
+      <![CDATA[Retry Test<br>]]>
+    </line>
+    <line>
+      <![CDATA[Retry Test<br>]]>
+    </line>
+    <line>
+      <![CDATA[Retry Test<br>]]>
+    </line>
+    <line>
+      <![CDATA[*** Screen shot has been captured successfully ***<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-21T01:31:06 EST" name="Suite" finished-at="2023-02-21T01:31:55 EST" duration-ms="48884">
+    <groups>
+      <group name="non-func">
+        <method signature="InternetQuoteTest.test3()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" name="test3" class="tdd.Nissan.InternetQuote.Test.InternetQuoteTest"/>
+        <method signature="InternetQuoteTest.testRetry()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" name="testRetry" class="tdd.Nissan.InternetQuote.Test.InternetQuoteTest"/>
+      </group> <!-- non-func -->
+      <group name="internet">
+        <method signature="InternetQuoteTest.internetquote1()[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" name="internetquote1" class="tdd.Nissan.InternetQuote.Test.InternetQuoteTest"/>
+        <method signature="InternetQuoteTest.test3()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" name="test3" class="tdd.Nissan.InternetQuote.Test.InternetQuoteTest"/>
+        <method signature="InternetQuoteTest.testRetry()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" name="testRetry" class="tdd.Nissan.InternetQuote.Test.InternetQuoteTest"/>
+      </group> <!-- internet -->
+    </groups>
+    <test started-at="2023-02-21T01:31:06 EST" name="Test" finished-at="2023-02-21T01:31:55 EST" duration-ms="48884">
+      <class name="tdd.Nissan.InternetQuote.Test.InternetQuoteTest">
+        <test-method is-config="true" signature="initExtentReport()[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:06 EST" name="initExtentReport" finished-at="2023-02-21T01:31:06 EST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtentReport -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:06 EST" name="startExtentReport" finished-at="2023-02-21T01:31:06 EST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tdd.Nissan.InternetQuote.Test.InternetQuoteTest.internetquote1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:06 EST" name="setUpDriver" finished-at="2023-02-21T01:31:14 EST" duration-ms="7645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="internetquote1()[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:14 EST" name="internetquote1" finished-at="2023-02-21T01:31:29 EST" duration-ms="14973" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (889a9a81c14c3110d7e1279fa48f8730)] -> xpath: //span[text()='Get Internet Quote']] ---> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Validating ---> Actual : *** REQUEST A QUOTE ***. Expected : *** REQUEST A QUOTE ***<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sanjib <--- This value has been passed into ---> [[ChromeDriver: chrome on WINDOWS (889a9a81c14c3110d7e1279fa48f8730)] -> xpath: (//input[@id='textfield_2dac'])[1]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[02587502 <--- This value has been passed into ---> [[ChromeDriver: chrome on WINDOWS (889a9a81c14c3110d7e1279fa48f8730)] -> xpath: //input[@id='textField2']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- internetquote1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:29 EST" name="getResult" finished-at="2023-02-21T01:31:29 EST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=internetquote1 status=SUCCESS method=InternetQuoteTest.internetquote1()[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739] output=[[ChromeDriver: chrome on WINDOWS (889a9a81c14c3110d7e1279fa48f8730)] -> xpath: //span[text()='Get Internet Quote']] ---> has been clicked<br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tdd.Nissan.InternetQuote.Test.InternetQuoteTest.internetquote1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:29 EST" name="tearUp" finished-at="2023-02-21T01:31:29 EST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:29 EST" name="startExtentReport" finished-at="2023-02-21T01:31:29 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tdd.Nissan.InternetQuote.Test.InternetQuoteTest.test3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:29 EST" name="setUpDriver" finished-at="2023-02-21T01:31:37 EST" duration-ms="8093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="test3()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:37 EST" name="test3" finished-at="2023-02-21T01:31:37 EST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at tdd.Nissan.InternetQuote.Test.InternetQuoteTest.test3(InternetQuoteTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test3<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:37 EST" name="getResult" finished-at="2023-02-21T01:31:37 EST" duration-ms="319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3 status=FAILURE method=InternetQuoteTest.test3()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739] output=Test3<br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tdd.Nissan.InternetQuote.Test.InternetQuoteTest.test3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*** Screen shot has been captured successfully ***<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:37 EST" name="tearUp" finished-at="2023-02-21T01:31:37 EST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:37 EST" name="startExtentReport" finished-at="2023-02-21T01:31:37 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tdd.Nissan.InternetQuote.Test.InternetQuoteTest.testRetry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:37 EST" name="setUpDriver" finished-at="2023-02-21T01:31:42 EST" duration-ms="4866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method retried="true" signature="testRetry()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:42 EST" name="testRetry" finished-at="2023-02-21T01:31:42 EST" duration-ms="3" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at tdd.Nissan.InternetQuote.Test.InternetQuoteTest.testRetry(InternetQuoteTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Retry Test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRetry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:42 EST" name="getResult" finished-at="2023-02-21T01:31:42 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRetry status=SKIP method=InternetQuoteTest.testRetry()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739] output=Retry Test<br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tdd.Nissan.InternetQuote.Test.InternetQuoteTest.testRetry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:42 EST" name="tearUp" finished-at="2023-02-21T01:31:42 EST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:42 EST" name="startExtentReport" finished-at="2023-02-21T01:31:42 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tdd.Nissan.InternetQuote.Test.InternetQuoteTest.testRetry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:42 EST" name="setUpDriver" finished-at="2023-02-21T01:31:47 EST" duration-ms="4965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method retried="true" signature="testRetry()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:47 EST" name="testRetry" finished-at="2023-02-21T01:31:47 EST" duration-ms="2" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at tdd.Nissan.InternetQuote.Test.InternetQuoteTest.testRetry(InternetQuoteTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Retry Test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRetry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:47 EST" name="getResult" finished-at="2023-02-21T01:31:47 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRetry status=SKIP method=InternetQuoteTest.testRetry()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739] output=Retry Test<br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tdd.Nissan.InternetQuote.Test.InternetQuoteTest.testRetry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:47 EST" name="tearUp" finished-at="2023-02-21T01:31:48 EST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="startExtentReport(java.lang.reflect.Method)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:48 EST" name="startExtentReport" finished-at="2023-02-21T01:31:48 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tdd.Nissan.InternetQuote.Test.InternetQuoteTest.testRetry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:48 EST" name="setUpDriver" finished-at="2023-02-21T01:31:54 EST" duration-ms="6131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="testRetry()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:54 EST" name="testRetry" finished-at="2023-02-21T01:31:54 EST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at tdd.Nissan.InternetQuote.Test.InternetQuoteTest.testRetry(InternetQuoteTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Retry Test<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRetry -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:54 EST" name="getResult" finished-at="2023-02-21T01:31:54 EST" duration-ms="661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRetry status=FAILURE method=InternetQuoteTest.testRetry()[pri:1, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739] output=Retry Test<br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tdd.Nissan.InternetQuote.Test.InternetQuoteTest.testRetry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[*** Screen shot has been captured successfully ***<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:54 EST" name="tearUp" finished-at="2023-02-21T01:31:55 EST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:tdd.Nissan.InternetQuote.Test.InternetQuoteTest@1530c739]" started-at="2023-02-21T01:31:55 EST" name="closeReport" finished-at="2023-02-21T01:31:55 EST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- tdd.Nissan.InternetQuote.Test.InternetQuoteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
