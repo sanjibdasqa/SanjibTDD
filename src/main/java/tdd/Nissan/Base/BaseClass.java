@@ -4,6 +4,7 @@ import java.lang.reflect.Method;
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -56,6 +57,12 @@ public class BaseClass extends ExtentListener {
 
 	private void initDriver(String driverName) {
 		switch (driverName) {
+		case CHROME:
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			driver = new ChromeDriver(options);
+			break;
 
 		case FIREFOX:
 			WebDriverManager.firefoxdriver().setup();
